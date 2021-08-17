@@ -1,3 +1,7 @@
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 .large-header{
     color: white;
     background-color: hsl(217deg 66% 32%);
@@ -5,18 +9,47 @@
     border-style: solid;
     border-color: black;
     text-align: center;
+    font-size: 1.8em;
+}
+
+.bar{
+    background-color:#CEE1F6 ;
+    color: #CEE1F6;
+    text-align: -webkit-center;
+    max-width: 50%;
 }
 
 .medium-header{
-    margin-top: 4rem;
+    margin-top: 1em;
     text-align: center;
-    margin
+    font-size: 1.8em;
 }
 
 .main-body{
     display: flex;
 }
 
-.body-left{
-    
+.body-center{
+    padding: 1em;
+    text-align: -webkit-center;
+}
+
+.main-text{
+    padding: 1em;
+    max-width: 40%;
+    text-align: left;
+}
+
+.body-right{
+    padding: 1em;
+}
+
+.large-footer{
+    color: hsl(217deg 66% 32%);
+    background-color: hsl(217deg 66% 32%);
+    border-width: .2em;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-size: 1.8em;
 }
