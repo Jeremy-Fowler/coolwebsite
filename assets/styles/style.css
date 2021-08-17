@@ -1,0 +1,22 @@
+.large-header{
+    color: white;
+    background-color: hsl(217deg 66% 32%);
+    border-width: .2em;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.medium-header{
+    margin-top: 4rem;
+    text-align: center;
+    margin
+}
+
+.main-body{
+    display: flex;
+}
+
+.body-left{
+    
+}
